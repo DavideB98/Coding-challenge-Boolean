@@ -1,0 +1,97 @@
+body{
+  background-image: url(file:///Users/davideblaffard/Desktop/Challenge/images/background.jpg);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  font-size-adjust: auto;
+}
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+  margin-top: 40px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 40px;
+  border-radius: 25px;
+
+
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+h1{
+  color: #33cc33;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 32px;
+
+}
+
+.menu{
+  text-align: center;
+  background-color: #33cc33;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px; black;
+
+}
+ul{
+  display: inline-block;
+}
+
+.monopattino{
+  margin-left: 20px;
+  padding-top: 20px;
+  color: #ffffff;
+}
+
+h4{
+  display: inline-block;
+  margin: auto;
+  font-size: 18px;
+}
+
+.indirizzo{
+  margin-left: 20px;
+  color: #ffffff;
+
+}
+
+.barra{
+  width: 100%;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.primo{
+  text-align: center;
+  color: #ffffff;
+  display: inline-block;
+  width: 45%;
+  background-color: #ffcc00;
+  border-radius: 25px;
+}
+
+.secondo{
+  text-align: center;
+  color: #ffffff;
+  display: inline-block;
+  width: 90%;
+  background-color: #009933;
+  border-radius: 25px;
+}
+
+.terzo{
+  text-align: center;
+  color: #ffffff;
+  display: inline-block;
+  width: 20%;
+  background-color: #cc0000;
+  border-radius: 25px;
+}
